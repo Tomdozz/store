@@ -48,7 +48,7 @@ const routes = [
       },
       {
         path: '/product',
-        component: () => import(/* webpackChunkName: "admin" */ '../components/Admin/AdminPages/ProductPage.vue'),
+        component: () => import(/* webpackChunkName: "admin" */ '../components/Admin/AdminPages/ProductPage/ProductsPage.vue'),
         meta: {
           requiresAuth: true,
           is_admin : true
